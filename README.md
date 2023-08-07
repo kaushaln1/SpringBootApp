@@ -1,6 +1,6 @@
 # Spring PetClinic Sample Application  
 
-# Updated the Jenkins file 
+--- Updated the Jenkins file --- 
 
 For step by step explanation visit: https://iamkomal.hashnode.dev/ (you will also find explnation of few errors that you might face when following this project)
 or follow https://www.youtube.com/@devopsshack 
