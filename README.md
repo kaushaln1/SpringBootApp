@@ -1,5 +1,18 @@
 # Spring PetClinic Sample Application  
-# Modified By DevOps Shack  https://www.youtube.com/@devopsshack
+
+# Updated the Jenkins file 
+
+For step by step explanation visit: https://iamkomal.hashnode.dev/ (you will also find explnation of few errors that you might face when following this project)
+or follow https://www.youtube.com/@devopsshack 
+
+
+
+Approved by the Spring team, this repo is a fork of the [spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic).
+
+The [issue tracker](/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
+
+For pull requests, editor preferences are available in the [editor config](.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
+
 
 [![Java CI with Maven](https://github.com/spring-petclinic/spring-framework-petclinic/actions/workflows/maven-build.yml/badge.svg)](https://github.com/spring-petclinic/spring-framework-petclinic/actions/workflows/maven-build.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=spring-petclinic_spring-framework-petclinic&metric=alert_status)](https://sonarcloud.io/dashboard?id=spring-petclinic_spring-framework-petclinic)
@@ -218,13 +231,7 @@ Here is a list of them:
 | Dandelion: improves the DandelionFilter for Jetty support | [113](https://github.com/dandelion/dandelion/issues/113) |
 
 
-# Contributing
 
-Approved by the Spring team, this repo is a fork of the [spring-projects/spring-petclinic](https://github.com/spring-projects/spring-petclinic).
-
-The [issue tracker](/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
-
-For pull requests, editor preferences are available in the [editor config](.editorconfig) for easy use in common text editors. Read more and download plugins at <http://editorconfig.org>.
 
 
 
