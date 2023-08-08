@@ -74,6 +74,18 @@ pipeline {
                 }
             } 
             
+        stage('Trivy Scan') {
+            steps {
+                script {
+                    sh 'trivy image komalminhas1/pet-1:latest'
+                }
+            }
+        }
+            
+            
+            
+        
+            
             stage('Docker push') {
             steps {
                 script {
@@ -95,9 +107,10 @@ pipeline {
         stage('Deploy to Tomcat') {
             steps {
               sh 'cp /Users/komalminhas/.jenkins/workspace/Real-time-CICD/target/petclinic.war   /Users/komalminhas/Documents/apache-tomcat-9.0.78/webapps/'
-               }
+              }
+              
+              
             }
-
         
             
         }
