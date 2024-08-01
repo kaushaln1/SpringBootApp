@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  name: springbootapi
+  repository: kaushaln1/springbootapi
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 8089
+  containerPort: 8080
