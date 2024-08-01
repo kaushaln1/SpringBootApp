@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  name: springbootapi
-  repository: kaushaln1/springbootapi
+  name: springboottestapi
+  repository: kaushaln1/springboottestapi
   tag: latest
 
 service:
